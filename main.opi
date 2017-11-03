@@ -4368,7 +4368,11 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>-307a9430:15f59621364:-7f0f</wuid>
       <transparent>false</transparent>
-      <scripts />
+      <scripts>
+        <path pathString="errormsg.py" checkConnect="true" sfe="false" seoe="false">
+          <pv trig="true">1:6:Max:set</pv>
+        </path>
+      </scripts>
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
