@@ -5,7 +5,7 @@ from time import gmtime, strftime
 
 a = PVUtil.getDouble(pvs[0])
 
-if a == 30000:
+if a > 30000:
     MessageDialog.openInformation(
             None, "Error message", "Maximum flow is 30000");
 
